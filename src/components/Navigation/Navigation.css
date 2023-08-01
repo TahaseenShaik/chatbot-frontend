@@ -1,0 +1,29 @@
+.navbar{
+    
+    background-color: rgb(47, 102, 148);
+    color:white;
+}
+.navBody{
+    margin : 0 10rem;
+    padding:2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+nav ul{
+    display:flex;
+    list-style:none;
+}
+nav ul li:not(:last-child){
+    margin-right: 4rem;
+}
+a{
+   text-decoration: none;
+   color:white;
+}
+a:hover{
+    color:rgb(255, 251, 0)
+}
+    
+   
